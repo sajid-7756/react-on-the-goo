@@ -7,7 +7,6 @@ const contriesPromise = async () => {
   const res = await fetch(url);
   return res.json();
 };
-
 const countriesData = contriesPromise();
 
 function App() {
